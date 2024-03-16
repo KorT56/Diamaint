@@ -1,0 +1,140 @@
+@media(max-width: 1000px){
+    .table{
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 200px) ;
+        grid-template-rows: 10em 12em 10em 8em 18em;
+        grid-auto-flow:column;
+        grid-gap: 1em;
+    }
+
+    .header {
+        font-size: 900%;
+        margin-left: 1%;
+    } 
+
+    .coln2_text3 {
+        margin-top: 72px;
+        }
+
+    .button_select {
+        margin-top: 120px;
+    }
+
+    .diam {
+       display: none;
+    }
+
+  
+    
+    
+    
+}
+
+@media(max-width: 900px) {
+    .header {
+        font-size: 1048%;
+        margin-left: 1%;
+    } 
+
+}
+
+
+@media(max-width: 700px) {
+    .header {
+        font-size: 848%;
+        margin-left: 1%;
+    } 
+}
+
+@media(max-width: 470px) {
+
+    .diam {
+        display: block;
+     }
+
+    .table {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        font-size: 648%;
+        margin-left: 1%;
+    }
+    
+    .coln1_text2 {
+      margin-top: -0px;
+    }
+    
+    .list {
+      
+    }
+    
+    .coln1_text4 {
+        width: 60%;
+        margin-top: -85%;
+        position: relative;
+    }
+    
+    .coln2_text1, .coln2_text2, 
+    .coln2_text3, .coln2_text4 {
+        width: 70%;
+        margin-left: 10%;
+    }
+    
+    .coln2_text1 {
+        position: relative;
+        margin-top: 5%;
+    }
+    
+    .coln2_text2 {
+        position: relative;
+        margin-top: -5%;
+    }
+    
+    .coln2_text3 {
+        position: relative;
+        margin-top: -1%;
+    }
+
+    .button_select {
+        margin-left: 20%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+
+    .diam {
+        width: 22%;
+        margin-left: 10%;
+        margin-top: 13px;
+    }
+    
+    .coln3_text3_complex {
+        margin-top: -170px;
+        margin-left: 13%;
+        width: 80%;
+    }
+    
+    .coln3_text4 {
+        margin-left: 15%;
+        width: 80%;
+        text-align: end;
+        margin-top: -110px;
+    }
+    
+    .coln3_text4_termin {
+        font-size: 220%;
+    }
+    
+    .coln3_text4_definition {
+        font-size: 200%;
+        margin-top: 40px;
+    }
+    
+    .berry {
+        margin-top: 45px;
+    }
+    
+    
+    
+}

@@ -1,0 +1,136 @@
+*{
+    font-family: Trebuchet MS, serif;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px) ;
+    grid-template-rows: 10em 12em 10em 8em 18em;
+    grid-auto-flow:column;
+    grid-gap: 1em;
+
+    /*justify-items: end;
+    align-items: end;
+    grid-template: repeat(3,100px) /repeat(5,100px);
+    */
+}
+
+.table > div:nth-child(1)  {
+   grid-column: 1/3;
+}
+
+.table > div:nth-child(3) {
+    grid-row: 3/5;
+}
+
+.table > div:nth-child(9) {
+    grid-row: 1/4;
+    grid-column: 3;
+}
+
+.table > div:nth-child(10) {
+    align-self: end;
+    justify-self: end;
+    justify-items: end;
+    align-items: end;
+}
+
+.button_select, .coln1_text2,
+.coln3_text3_complex, .coln3_text4_definition {
+    text-transform: uppercase;
+}
+
+.coln2_text4, .coln1_text2, .header,
+.coln1_text4, .coln2_text1,
+.coln2_text2, .coln2_text3,
+.coln3_text3_complex, .coln3_text4  {
+color: rgb(87, 87, 121);
+}
+
+.coln2_text4, 
+.coln1_text4, .coln2_text1,
+.coln2_text2, .coln2_text3,
+.coln3_text3_complex, .coln3_text4  {
+font-size: 80%;
+}
+
+.header {
+    font-size: 1100%;
+    margin-top: -1%;
+    margin-left: 15%;
+}
+
+.button_select {
+    background-color: rgb(87, 87, 121);
+    padding: 1em 2em 1em 2em;
+    border: none;
+    border-radius: 15em;
+    color: #fff;
+    margin-left: 8%;
+    margin-bottom: 45px;
+}
+
+.coln1_text2 {
+  margin-left: 35%;
+  width: 30%;
+  margin-top: 20%;
+}
+
+.list {
+    margin-left: -3%;
+    width: 120%;
+}
+
+.coln1_text4 {
+    margin-left: 35%;
+    width: 60%;
+    margin-top: 10%;
+}
+
+.coln2_text1, .coln2_text2, 
+.coln2_text3, .coln2_text4 {
+    width: 70%;
+}
+
+.coln2_text1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+.coln2_text3 {
+    margin-right: 20px;
+}
+
+.diam {
+    width: 100%;
+    margin-top: 1%;
+}
+
+.coln3_text3_complex {
+    width: 25%;
+    text-align: end;
+    margin-top: 130px;
+    margin-left: 60%;
+}
+
+.coln3_text4 {
+    width: 80%;
+    text-align: start;
+    margin-top: 40px;
+}
+
+.coln3_text4_termin {
+    font-size: 220%;
+}
+
+.coln3_text4_definition {
+    font-size: 200%;
+    margin-top: 40px;
+}
+
+.berry {
+    margin-top: 45px;
+}
+
+
