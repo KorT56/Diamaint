@@ -1,5 +1,6 @@
 *{
-    font-family: Trebuchet MS, serif;
+    /*font-family: Trebuchet MS, serif;*/
+    font-family:Comic Sans MS, cursive;
 }
 
 .table{
@@ -8,11 +9,6 @@
     grid-template-rows: 10em 12em 10em 8em 18em;
     grid-auto-flow:column;
     grid-gap: 1em;
-
-    /*justify-items: end;
-    align-items: end;
-    grid-template: repeat(3,100px) /repeat(5,100px);
-    */
 }
 
 .table > div:nth-child(1)  {
@@ -55,10 +51,17 @@ font-size: 80%;
 }
 
 .header {
-    font-size: 1100%;
+    font-size: 1050%;
     margin-top: -1%;
     margin-left: 15%;
+    transition: 0.7s;
+    
 }
+
+.header:hover {
+    transform: scale(1.1); 
+}
+
 
 .button_select {
     background-color: rgb(87, 87, 121);
@@ -68,6 +71,11 @@ font-size: 80%;
     color: #fff;
     margin-left: 8%;
     margin-bottom: 45px;
+    transition: 0.7s;
+}
+
+.button_select:hover {
+    box-shadow: 0 0 0 4px rgb(87, 87, 121);
 }
 
 .coln1_text2 {
@@ -87,6 +95,7 @@ font-size: 80%;
     margin-top: 10%;
 }
 
+
 .coln2_text1, .coln2_text2, 
 .coln2_text3, .coln2_text4 {
     width: 70%;
@@ -105,6 +114,7 @@ font-size: 80%;
 .diam {
     width: 100%;
     margin-top: 1%;
+    transition: 1s;
 }
 
 .coln3_text3_complex {
@@ -131,6 +141,10 @@ font-size: 80%;
 
 .berry {
     margin-top: 45px;
+    transition: 0.7s;
 }
 
+.berry:hover {
+    transform: scale(1.3); 
+  }
 
